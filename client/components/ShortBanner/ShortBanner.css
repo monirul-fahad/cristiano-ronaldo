@@ -1,0 +1,10 @@
+.short-banner {
+  background-image: url(../../images/allBanner.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 350px;
+  /* display: flex; */
+  /* align-items: center; */
+}
