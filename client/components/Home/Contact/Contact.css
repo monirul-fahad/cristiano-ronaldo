@@ -1,0 +1,19 @@
+.contact-from {
+  background-color: rgba(235, 211, 180, 0.301);
+}
+.contact-from h1 {
+  font-family: "Righteous", cursive;
+  color: black;
+}
+.contact-from p {
+  margin-bottom: 0;
+  text-align: left;
+}
+.advertise-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 40px;
+  background-image: linear-gradient(75deg, #d6dbe7, #3c6a7e);
+  /* color: #fff; */
+}

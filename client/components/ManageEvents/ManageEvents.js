@@ -24,7 +24,6 @@ const ManageEvents = () => {
           setOrders(remaining);
         }
       });
-    console.log("button click");
   };
 
   return (
@@ -53,12 +52,7 @@ const ManageEvents = () => {
                     {order.order.description?.slice(0, 150)}
                   </p>
                   <div className="row-col ">
-                    <button
-                      className="btn btn-warning"
-                      onClick={() => handleDelete(order.order._id)}
-                    >
-                      Pending
-                    </button>
+                    <button className="btn btn-warning">Pending</button>
                     <button
                       className="btn btn-danger"
                       onClick={() => handleDelete(order._id)}

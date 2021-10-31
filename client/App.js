@@ -25,21 +25,21 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/myEvents">
+            <PrivateRoute path="/myEvents">
               <MyEvents></MyEvents>
-            </Route>
-            <Route path="/manageEvents">
+            </PrivateRoute>
+            <PrivateRoute path="/manageEvents">
               <ManageEvents></ManageEvents>
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
             <PrivateRoute path="/eventDetails/:eventId">
               <EventDetails></EventDetails>
             </PrivateRoute>
-            <Route path="/addEvent">
+            <PrivateRoute path="/addEvent">
               <AddEvent></AddEvent>
-            </Route>
+            </PrivateRoute>
             <Route path="*">
               <NotFond></NotFond>
             </Route>

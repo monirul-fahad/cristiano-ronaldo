@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.about {
+  padding: 70px 0;
+  background-color: rgba(235, 211, 180, 0.466);
+}
+
+.about h6 {
+  font-size: 25px;
+  color: black;
+  font-family: "Righteous", cursive;
+}
+.about h3 {
+  font-size: 40px;
+  font-family: "Righteous", cursive;
+  color: black;
+}
+
+.achievement-card {
+  padding: 20px;
+  text-align: center;
+  background: #304f47;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.achievement-card h5 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  padding: 15px 0;
+}
+
+.achievement-icon {
+  color: #fff;
+  font-size: 80px;
+}
